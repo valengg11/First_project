@@ -11,9 +11,9 @@
     <title>Valentina Gomez</title>
   </head>
   <body>
-    <header>
+    <header id="carousel">
       <!-- CAROUSEL -->
-      <div id="carousel" class="carousel slide" data-bs-ride="carousel" data-pause="false">
+      <div class="carousel slide" data-bs-ride="carousel" data-pause="false">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="images/home-bg-2.jpg" class="d-block w-100" alt="img1">
@@ -49,7 +49,7 @@
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
           <ul class="navbar-nav" id="navbar">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#carousel">HOME</a>
+              <a class="nav-link" aria-current="page" href="#">HOME</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#services">SERVICES</a>
@@ -197,25 +197,67 @@
             <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
           </div>
         </div>
-        <div class="row portfolio">
+        <div class="row">
           <div class="col-12 col-lg-4 col-md-6">
-            <img src="images/portfolio-img1.jpg" class="img-fluid" alt="portfolio-img1">
+            <div class="portfolio">
+              <img src="images/portfolio-img1.jpg" class="img-fluid portfolio-img" alt="portfolio-img1">
+              <div class="portfolio-overlay">
+                  <span class="icon-attachment portfolio-icon"></span>
+                <h3 class="portfolio-text"><b>Illustration</b></h3>
+                <p>Graphic / Illustration / Poster</p>
+              </div>
+            </div>
           </div>  
           <div class="col-12 col-lg-4 col-md-6">
-            <img src="images/portfolio-img2.jpg" class="img-fluid" alt="portfolio-img2">
+            <div class="portfolio">
+              <img src="images/portfolio-img2.jpg" class="img-fluid portfolio-img" alt="portfolio-img2">
+              <div class="portfolio-overlay">
+                  <span class="icon-attachment portfolio-icon"></span>
+                <h3 class="portfolio-text"><b>Illustration</b></h3>
+                <p>Graphic / Illustration / Poster</p>
+              </div>
+            </div>
           </div>  
           <div class="col-12 col-lg-4 col-md-6">
-            <img src="images/portfolio-img3.jpg" class="img-fluid" alt="portfolio-img3">
-          </div>
-          <div class="col-12 col-lg-4 col-md-6">
-            <img src="images/portfolio-img4.jpg" class="img-fluid" alt="portfolio-img4">
+            <div class="portfolio">
+              <img src="images/portfolio-img3.jpg" class="img-fluid portfolio-img" alt="portfolio-img3">
+              <div class="portfolio-overlay">
+                  <span class="icon-attachment portfolio-icon"></span>
+                <h3 class="portfolio-text"><b>Illustration</b></h3>
+                <p>Graphic / Illustration / Poster</p>
+              </div>
+            </div>
           </div>  
           <div class="col-12 col-lg-4 col-md-6">
-            <img src="images/portfolio-img5.jpg" class="img-fluid" alt="portfolio-img5">
+            <div class="portfolio">
+              <img src="images/portfolio-img4.jpg" class="img-fluid portfolio-img" alt="portfolio-img4">
+              <div class="portfolio-overlay">
+                  <span class="icon-attachment portfolio-icon"></span>
+                <h3 class="portfolio-text"><b>Illustration</b></h3>
+                <p>Graphic / Illustration / Poster</p>
+              </div>
+            </div>
           </div>  
           <div class="col-12 col-lg-4 col-md-6">
-            <img src="images/portfolio-img6.jpg" class="img-fluid" alt="portfolio-img6">
-          </div>
+            <div class="portfolio">
+              <img src="images/portfolio-img5.jpg" class="img-fluid portfolio-img" alt="portfolio-img5">
+              <div class="portfolio-overlay">
+                  <span class="icon-attachment portfolio-icon"></span>
+                <h3 class="portfolio-text"><b>Illustration</b></h3>
+                <p>Graphic / Illustration / Poster</p>
+              </div>
+            </div>
+          </div>  
+          <div class="col-12 col-lg-4 col-md-6">
+            <div class="portfolio">
+              <img src="images/portfolio-img6.jpg" class="img-fluid portfolio-img" alt="portfolio-img6">
+              <div class="portfolio-overlay">
+                  <span class="icon-attachment portfolio-icon"></span>
+                <h3 class="portfolio-text"><b>Illustration</b></h3>
+                <p>Graphic / Illustration / Poster</p>
+              </div>
+            </div>
+          </div>  
         </div>
       </div>
       </section>
@@ -230,7 +272,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-12 col-lg-6 col-md-12 blog blog-1">
+          <div class="col-12 col-lg-6 col-md-12 col-xl-6 blog blog-1">
               <div class="card-body">
                 <p class="date">Online Business / Dec 9, 2016</p>
                 <h5>The best way to make Online Business</h5>
@@ -259,22 +301,6 @@
             </div>
           </div>
         </div>
-    
-        <!-- <div class="card blog-card">
-            <div class="card-body">
-              <p class="date">Social Marketing / Dec 9, 2016</p>
-              <h5>What is Social Marketing Business</h5>
-              <strong>by Mary Louis</strong>
-            </div>
-        </div>
-        <div class="card blog-card">
-          <div class="card-body">
-            <p class="date">Web Designer / Dec 9, 2016</p>
-            <h5>How to become Web Designer</h5>
-            <strong>by David Jenn</strong>
-          </div>
-        </div> -->
-  
       </div>
     </section>    
     <!-- END BLOG -->
@@ -474,7 +500,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
     <script src="resources/et-line-font/lte-ie7.js"></script>
     <script src="js/behavior.js"></script>
-    <script>
+    <!-- <script>
       // Add active class to the current button (highlight it)
       var navbar = document.getElementById("navbar");
       var btns = navbar.getElementsByClassName("nav-link");
@@ -487,6 +513,6 @@
         this.className += " active";
         });
       }
-      </script>
+      </script> -->
   </body>
 </html>

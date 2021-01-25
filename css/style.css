@@ -16,6 +16,12 @@ body{
     .video{
         width: 100%;
     }
+    .blog-1{
+        width: 100%;
+    }
+    .blog-2{
+        width: 100%;
+    }
     .img-fluid{
         width: 100%;
     }
@@ -44,7 +50,7 @@ body{
     }
 }
 
-@media (min-width: 768px){
+@media (min-width: 769px){
     .container-fluid{
         width: 75%;
         padding: 80px 0;
@@ -66,10 +72,10 @@ body{
         height: 300px;
     }
     .blog-1{
-        width: 97.7%;
+        width: 97.5%;
     }
     .blog-2{
-        width: 47.6%;
+        width: 47.4%;
     }
     .contact-container{
         width: 65%;
@@ -97,6 +103,12 @@ body{
     .video{
         height: 100%;
         min-width: 420px;
+    }
+    .blog-1{
+        width: 97.4%;
+    }
+    .blog-2{
+        width: 47.4%;
     }
     .contact-container{
         width: 50%;
@@ -247,7 +259,41 @@ span.icon{
 }
 /* PORTFOLIO */
 .portfolio{
-    
+    position: relative;
+}
+.portfolio-img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.portfolio-overlay{
+    position: absolute;
+    bottom: 0;
+    background: rgba(99, 198, 174, 0.8);
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease 0s;
+    opacity: 0;
+    color: white;
+    padding-top: 40%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 15px;
+}
+.portfolio:hover .portfolio-overlay{
+    opacity: 1;
+}
+.portfolio-icon{
+    background-color: white;
+    color: #63c6ae;
+    font-size: 30px;
+    border-radius: 50%;
+    border: 15px solid white;
+    font-weight: 800;
+}
+.portfolio-text{
+    margin-top: 30px;
+    color: white !important;
 }
 
 /* BLOG */
