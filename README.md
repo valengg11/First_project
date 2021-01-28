@@ -1,2 +1,14 @@
 # First_project
- Creating a web page from scratch with guidelines from Talos.
+Web page of a company named Talos created with HTML, CSS and JavaScript.
+
+ Table of Contents.
+ - Menu.
+ - Services.
+ - About Talos.
+ - Work-Team.
+ - Portfolio.
+ - Blog.
+ - FAQ.
+ - Testimonials.
+ - Contact.
+
