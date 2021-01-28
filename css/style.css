@@ -269,8 +269,8 @@ h4{
 .navbar-menu-item{
     font-weight: bolder;
 }
-div#navbarTogglerDemo02.collapse.navbar-collapse{
-    margin: 0;
+div#navbarTogglerDemo02{
+        justify-content: flex-end;
 }
 .navbar-collapse{
     text-align: center;
