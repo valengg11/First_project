@@ -68,7 +68,7 @@ body{
 .centered-titles{
     text-align: center;
 }
-.paragraph{
+.psection-caption{
     margin-top: 15px;
     margin-bottom: 50px;
 }
@@ -92,7 +92,7 @@ body{
 .header-caption{
     color: var(--white);  
 }  
-.btn1{
+.white-style-btn{
     border: 2px solid var(--white);  
     border-radius: 3px;
     background: transparent;
@@ -101,7 +101,7 @@ body{
     padding: 9px 35px;
     margin: 5px;
 }
-.btn2{
+.green-style-btn{
     border: 2px solid var(--aquamarine);
     border-radius: 3px;
     background: var(--aquamarine);
@@ -110,26 +110,23 @@ body{
     padding: 9px 35px;
     margin: 5px;
 }
-.btn:hover{
+.button:hover{
     border-color: transparent;
     background: var(--white);  
     color: var(--aquamarine);
 }
-.btn:active, .btn:focus{
-    border-color: transparent;
+.button:active, .button:focus{
     background: var(--orange);
-    border-color: var(--intense-orange);
+    border: 2px solid var(--intense-orange);
     color: var(--white);  
-}
-.btn:focus{
-    box-shadow: none;
-}
+    outline: none;
+}    
 @media (max-width: 576px){
     .header-caption{
         margin-top: 10px;
         margin-bottom:10px;
     }
-    .header-btn2{
+    header .green-style-btn{
         display: none;
     }
 }   
@@ -163,7 +160,7 @@ body{
 .navbar-menu-item{
     font-weight: bolder;
 }
-div#navbarTogglerDemo02{
+.navbar .navbar-collapse{
         justify-content: flex-end;
 }
 .navbar-collapse{
@@ -319,10 +316,9 @@ span.icon{
     font-weight: bold;
 }
 
-/* BLOG */        
+/* BLOG */       
 .blog{
-    margin-right: 1rem;
-    margin-bottom: 1rem;
+    margin: 8px;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     padding: 3rem;
@@ -365,15 +361,15 @@ span.icon{
         width: 97.5%;
     }
     .blog-2{
-        width: 47.3%;
+        width: 47%;
     }
 }
 @media (min-width: 769px){
     .blog-1{
-        width: 47.4%;
+        width: 47%;
     }
     .blog-2{
-        width: 47.4%;
+        width: 47%;
     }
 }  
 
@@ -472,7 +468,6 @@ span.icon{
     width: 9px;
     height: 9px;
     margin: 6px;
-    text-indent: -999px;
     cursor: pointer;
     background-color: var(--lightaquamarine);
     border-radius: 50%;
@@ -506,7 +501,7 @@ span.icon{
     border-radius: 5px;
     color: var(--gray);
 }
-.contact-button{
+section#contact .button{
     margin: 0;
 }
 @media (max-width: 576px){
@@ -514,7 +509,7 @@ span.icon{
         margin-top: 20px;
         height: 150px;
     }
-    .contact-button{
+    section#contact .button{
         width: 100%;
     }
     .row-contact-button{
@@ -529,7 +524,7 @@ span.icon{
         margin-top: 0;
         height: 100%;
     }
-    .contact-button{
+    section#contact .button{
         width: 70%;
     }
     .row-contact-button{
@@ -544,7 +539,7 @@ span.icon{
     .form-area{
         height: 100%;
     }
-    .contact-button{
+    section#contact .button{
         width: 70%;
     }
     .row-contact-button{
