@@ -9,10 +9,13 @@
     --intense-orange: #C58801;
     --lightaquamarine: rgba(35, 203, 167, 0.7);
     --grayborder: #E6E6E6;
+}
+*{
+    font-family: 'et-line', sans-serif;
 } 
 body{
     font-size: 1rem;
-    font-family: 'Oxygen', sans-serif;
+    /* font-family: 'Oxygen', sans-serif; */
     color: var(--gray);
     margin: 0;
     background: var(--white);
