@@ -9,16 +9,6 @@
     --intense-orange: #C58801;
     --lightaquamarine: rgba(35, 203, 167, 0.7);
     --grayborder: #E6E6E6;
-}
-@font-face {
-	font-family: 'et-line';
-	src:url('resources/fonts/et-line.eot');
-	src:url('resources/fonts/et-line.eot?#iefix') format('embedded-opentype'),
-		url('resources/fonts/et-line.woff') format('woff'),
-		url('resources/fonts/et-line.ttf') format('truetype'),
-		url('resources/fonts/et-line.svg#et-line') format('svg');
-	font-weight: normal;
-	font-style: normal;
 } 
 body{
     font-size: 1rem;
@@ -201,7 +191,7 @@ body{
 }
 
 /* WHAT WE DO */
-span.icon{
+i.icon{
     font-size: 1.9rem;
     color: var(--black);  
     font-family: 'et-line';
