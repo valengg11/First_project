@@ -68,7 +68,7 @@ body{
 .centered-titles{
     text-align: center;
 }
-.psection-caption{
+.section-caption{
     margin-top: 15px;
     margin-bottom: 50px;
 }
@@ -404,8 +404,8 @@ span.icon{
     border-color: transparent;
     background: var(--white);  
 }
-.icon2{
-    margin-right: 15px;
+.accordion-button .icon{
+    margin-right: 25px;
 }
 @media (min-width: 577px) and (max-width: 768px){
     .faq-accordion{
@@ -552,7 +552,7 @@ section#contact .button{
 .social-icons {
     width: 30px;
     height: 30px;
-    margin: 10px ;
+    margin: 10px;
 }
 .icon-row{
     width: 300px;
