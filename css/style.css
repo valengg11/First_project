@@ -204,6 +204,7 @@ body{
 span.icon{
     font-size: 1.9rem;
     color: var(--black);  
+    font-family: 'et-line';
 }
 
 /* ABOUT */    
@@ -374,6 +375,9 @@ span.icon{
 }  
 
 /* FAQ */ 
+span.icon{
+    font-family: 'et-line';
+}
 .accordion-button::after {
     display: none;
 }
