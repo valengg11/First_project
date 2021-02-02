@@ -156,7 +156,7 @@ i.icon{
     font-weight: bolder;
 }
 .navbar .navbar-collapse{
-        justify-content: flex-end;
+    justify-content: flex-end;
 }
 .navbar-collapse{
     text-align: center;
@@ -183,7 +183,7 @@ i.icon{
         width: 80%;
     }
     div.container.navbar-container{
-        width: 75%;
+        width: 80%;
     }
     ul#navbar.navbar-collapse{
         float: right;
@@ -219,7 +219,7 @@ i.icon{
     }
     .video{
         height: 100%;
-        min-width: 420px;
+        /* min-width: 420px; */
     }
 }
 
@@ -363,6 +363,9 @@ i.icon{
 }  
 
 /* FAQ */ 
+.accordion-button .subtitle{
+    text-align: left;
+}
 .accordion-button::after {
     display: none;
 }
@@ -537,31 +540,20 @@ section#contact .button{
     }
 }  
 
-/* FOOTER */        
+/* FOOTER */  
+.footer-container{
+    text-align: center;
+}      
 .social-icons {
     width: 30px;
     height: 30px;
     margin: 10px;
 }
+.icon-row .col-2{
+    padding-right: 0;
+    padding-left: 0;
+}
 .icon-row{
     width: 300px;
     margin: 0 auto;
 }
-@media (max-width: 576px){
-    .footer-container {
-        width: 80%;
-        text-align: center;
-    }
-}
-@media (min-width: 577px) and (max-width: 768px){
-    .footer-container {
-        width: 70%;
-        text-align: center;
-    }
-}
-@media (min-width: 769px){
-    .footer-container {
-        width: 30%;
-        text-align: center;
-    }
-} 
