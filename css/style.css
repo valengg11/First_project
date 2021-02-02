@@ -10,12 +10,9 @@
     --lightaquamarine: rgba(35, 203, 167, 0.7);
     --grayborder: #E6E6E6;
 }
-*{
-    font-family: 'et-line', sans-serif;
-} 
 body{
     font-size: 1rem;
-    /* font-family: 'Oxygen', sans-serif; */
+    font-family: 'Oxygen', sans-serif;
     color: var(--gray);
     margin: 0;
     background: var(--white);
@@ -64,6 +61,11 @@ body{
 .section-caption{
     margin-top: 15px;
     margin-bottom: 50px;
+}
+i.icon{
+    font-size: 1.9rem;
+    color: var(--black);  
+    font-family: 'et-line';
 }
 /* Header */
 .carousel-photo{
@@ -191,13 +193,6 @@ body{
     div.container.navbar-container{
         width: 75%;
     }
-}
-
-/* WHAT WE DO */
-i.icon{
-    font-size: 1.9rem;
-    color: var(--black);  
-    font-family: 'et-line';
 }
 
 /* ABOUT */    
@@ -368,9 +363,6 @@ i.icon{
 }  
 
 /* FAQ */ 
-span.icon{
-    font-family: 'et-line';
-}
 .accordion-button::after {
     display: none;
 }
