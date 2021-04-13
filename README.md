@@ -1,7 +1,7 @@
 # First project
 This project is a Static web page strucutured with HTML, CSS, JavaScript, using the [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/) library.
 
-The Web page contains mainly the sections of services, portfolio, work-team, contact, and other important information about the company, Talos.
+The Web page contains mainly the sections of services, portfolio, work-team, contact, and other important information about the company Talos.
 
 ___
 ## Navbar
